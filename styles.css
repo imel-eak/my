@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0e6f6; /* Light purple background */
+    color: #333;
+}
+
+header {
+    background: #6a0dad; /* Dark purple background */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-top: 0;
+}
+
+.heart {
+    color: #ff69b4; /* Pink hearts */
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    margin-bottom: 0.5rem;
+}
+
+article time {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #6a0dad; /* Dark purple background */
+    color: #fff;
+}
+
+footer .heart {
+    font-size: 1rem;
+}
